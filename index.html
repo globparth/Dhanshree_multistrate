@@ -795,6 +795,16 @@ html[lang="mr"] .sf-row b{font-family:var(--head);font-size:52px}
 
 .msg .pf{width:170px;height:170px}
 
+/* header: never let brand collide with nav */
+.hdr .brand{flex:0 1 auto;min-width:0}
+.hdr .brand > span{min-width:0;overflow:hidden}
+.hdr .brand b,.hdr .brand small{overflow:hidden;text-overflow:ellipsis}
+.hdr .nav{flex:none}
+html[lang="en"] .hdr .brand small{letter-spacing:.08em;font-size:10.5px}
+@media(max-width:1480px){.hdr .btn{display:none}}
+
+@media(max-width:480px){html[lang="en"] .hdr .brand small{letter-spacing:.03em;font-size:9.5px}}
+
 
 </style>
 </head>
@@ -806,7 +816,7 @@ html[lang="mr"] .sf-row b{font-family:var(--head);font-size:52px}
 </div></div>
 
 <header class="hdr" id="hdr"><div class="wrap">
-  <a class="brand" href="#home"><img data-logo alt=""><span><b><span class="mr">धनश्री मल्टीस्टेट</span><span class="en">Dhanashree Multistate</span></b><small><span class="mr">को-ऑप. क्रेडिट सोसायटी लि., मंगळवेढा</span><span class="en">Co-op. Credit Society Ltd. · Mangalwedha</span></small></span></a>
+  <a class="brand" href="#home"><img data-logo alt=""><span><b><span class="mr">धनश्री मल्टीस्टेट</span><span class="en">Dhanashree Multistate</span></b><small><span class="mr">को-ऑप. क्रेडिट सोसायटी लि., मंगळवेढा</span><span class="en">Co-op. Credit Society Ltd.</span></small></span></a>
   <nav class="nav" id="nav"><a href="#home" data-p="home"><span class="mr">मुख्यपृष्ठ</span><span class="en">Home</span></a><a href="#election" data-p="election"><span class="mr">संचालक मंडळ निवडणूक</span><span class="en">Election of BOD</span></a><a href="#about" data-p="about"><span class="mr">आमच्याविषयी</span><span class="en">About</span></a><a href="#deposit" data-p="deposit"><span class="mr">ठेव योजना</span><span class="en">Deposit</span></a><a href="#loan" data-p="loan"><span class="mr">कर्ज योजना</span><span class="en">Loan</span></a><a href="#gallery" data-p="gallery"><span class="mr">फोटो गॅलरी</span><span class="en">Gallery</span></a><a href="#contact" data-p="contact"><span class="mr">संपर्क</span><span class="en">Contact</span></a></nav>
   <div class="hdr-r">
     <a class="btn gold" href="#contact"><span class="mr">खाते उघडा</span><span class="en">Open an account</span></a>
@@ -1148,7 +1158,7 @@ html[lang="mr"] .sf-row b{font-family:var(--head);font-size:52px}
   <div class="wrap">
     <div class="f-grid">
       <div>
-        <a class="brand" href="#home"><img data-logo alt=""><span><b><span class="mr">धनश्री मल्टीस्टेट</span><span class="en">Dhanashree Multistate</span></b><small><span class="mr">को-ऑप. क्रेडिट सोसायटी लि., मंगळवेढा</span><span class="en">Co-op. Credit Society Ltd. · Mangalwedha</span></small></span></a>
+        <a class="brand" href="#home"><img data-logo alt=""><span><b><span class="mr">धनश्री मल्टीस्टेट</span><span class="en">Dhanashree Multistate</span></b><small><span class="mr">को-ऑप. क्रेडिट सोसायटी लि., मंगळवेढा</span><span class="en">Co-op. Credit Society Ltd.</span></small></span></a>
         <p style="margin-top:20px"><span class="mr">मुख्य कार्यालय, मंगळवेढा, ता. मंगळवेढा, जि. सोलापूर, महाराष्ट्र</span><span class="en">Head Office, Mangalwedha, Dist. Solapur, Maharashtra</span></p>
         <p>IFSC: ICIC0000104</p>
         <div class="slogan gold-text">काही अर्थ वाढवावा । संसार सुखे करावा ॥</div>
