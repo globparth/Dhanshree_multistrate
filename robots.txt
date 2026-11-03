@@ -1,4 +1,4 @@
-# robots.txt — Dhanashree Multistate Co-op. Credit Society Ltd.
+# robots.txt — Dhanashri Multistate Co-op. Credit Society Ltd.
 User-agent: *
 Allow: /
 Disallow: /404.html

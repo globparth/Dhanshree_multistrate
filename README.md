@@ -1,16 +1,16 @@
-# Dhanashree Multistate Co-op. Credit Society Ltd.
+# Dhanashri Multistate Co-op. Credit Society Ltd.
 
 Bilingual (मराठी / English) website. Live: https://globparth.github.io/Dhanshree_multistrate/
 
 ## Pages (each has its own URL, title, description, canonical and structured data)
-- `/` — Dhanashree Multistate Co-op Credit Society, Mangalwedha | धनश्री मल्टीस्टेट
-- `board/` — Board of Directors | Dhanashree Multistate, Mangalwedha
-- `about/` — About Us | Dhanashree Multistate Co-op Credit Society, Mangalwedha
-- `deposits/` — Deposit Schemes: FD, RD & Lakhpati RD | Dhanashree Multistate
-- `loans/` — Gold Loan & Loan Schemes | Dhanashree Multistate, Mangalwedha
-- `gallery/` — Photo Gallery | Dhanashree Multistate, Mangalwedha
-- `contact/` — Contact & 35 Branches | Dhanashree Multistate, Mangalwedha
-- `election/` — Election Programme 2026–27 | Dhanashree Multistate, Mangalwedha
+- `/` — Dhanashri Multistate Co-op Credit Society, Mangalwedha | धनश्री मल्टीस्टेट
+- `board/` — Board of Directors | Dhanashri Multistate, Mangalwedha
+- `about/` — About Us | Dhanashri Multistate Co-op Credit Society, Mangalwedha
+- `deposits/` — Deposit Schemes: FD, RD & Lakhpati RD | Dhanashri Multistate
+- `loans/` — Gold Loan & Loan Schemes | Dhanashri Multistate, Mangalwedha
+- `gallery/` — Photo Gallery | Dhanashri Multistate, Mangalwedha
+- `contact/` — Contact & 35 Branches | Dhanashri Multistate, Mangalwedha
+- `election/` — Election Programme 2026–27 | Dhanashri Multistate, Mangalwedha
 
 ## SEO files
 - `sitemap.xml` — every page; submit it in Google Search Console.
