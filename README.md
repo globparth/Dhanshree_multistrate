@@ -4,12 +4,13 @@ Bilingual (मराठी / English) website. Live: https://globparth.github.io
 
 ## Pages (each has its own URL, title, description, canonical and structured data)
 - `/` — Dhanashree Multistate Co-op Credit Society, Mangalwedha | धनश्री मल्टीस्टेट
-- `board/` — Board Members & Representatives 2026 | Dhanashree Multistate
+- `board/` — Board of Directors | Dhanashree Multistate, Mangalwedha
 - `about/` — About Us | Dhanashree Multistate Co-op Credit Society, Mangalwedha
 - `deposits/` — Deposit Schemes: FD, RD & Lakhpati RD | Dhanashree Multistate
 - `loans/` — Gold Loan & Loan Schemes | Dhanashree Multistate, Mangalwedha
 - `gallery/` — Photo Gallery | Dhanashree Multistate, Mangalwedha
 - `contact/` — Contact & 35 Branches | Dhanashree Multistate, Mangalwedha
+- `election/` — Election Programme 2026–27 | Dhanashree Multistate, Mangalwedha
 
 ## SEO files
 - `sitemap.xml` — every page; submit it in Google Search Console.
