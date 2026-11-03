@@ -1,10 +1,6 @@
-# robots.txt — Dhanashree Multistate Co-operative Society Ltd.
+# robots.txt — Dhanashree Multistate Co-op. Credit Society Ltd.
 User-agent: *
 Allow: /
+Disallow: /404.html
 
-# Keep crawlers out of non-public folders if you add them later
-Disallow: /admin/
-Disallow: /private/
-Disallow: /*.json$
-
-Sitemap: https://www.dhanashreemultistate.com/sitemap.xml
+Sitemap: https://globparth.github.io/Dhanshree_multistrate/sitemap.xml
