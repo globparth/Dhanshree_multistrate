@@ -1,6 +1,6 @@
 # Dhanashri Multistate Co-op. Credit Society Ltd.
 
-Bilingual (मराठी / English) website. Live: https://globparth.github.io/Dhanshree_multistrate/
+Bilingual (मराठी / English) website. Live: https://dhanashrimultistate.com/
 
 ## Pages (each has its own URL, title, description, canonical and structured data)
 - `/` — Dhanashri Multistate Co-op Credit Society, Mangalwedha | धनश्री मल्टीस्टेट
@@ -23,6 +23,6 @@ Bilingual (मराठी / English) website. Live: https://globparth.github.io
 Run `./set-domain.sh https://www.yourdomain.com`, commit, then add the domain in GitHub → Settings → Pages.
 
 ## Google Search Console
-1. Add the property for https://globparth.github.io/Dhanshree_multistrate/ (URL-prefix).
+1. Add the property for https://dhanashrimultistate.com/ (URL-prefix).
 2. Verify with the HTML tag (paste it where the comment says in each page head) or with an uploaded HTML file.
-3. Submit `https://globparth.github.io/Dhanshree_multistrate/sitemap.xml`.
+3. Submit `https://dhanashrimultistate.com/sitemap.xml`.

@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://globparth.github.io/Dhanshree_multistrate/sitemap.xml
+Sitemap: https://dhanashrimultistate.com/sitemap.xml
