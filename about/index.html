@@ -948,6 +948,23 @@ html[lang="mr"] .el-next small{letter-spacing:0;font-size:14px;text-transform:no
 @media(max-width:900px){.el-info{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.el-info{grid-template-columns:1fr}.el-dl .btn{width:100%;justify-content:center}}
 
+/* newspaper notices */
+.np-wrap{margin-top:30px}
+.np-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.np-head b{font-family:var(--head);font-size:22px}
+.np-head span{color:var(--muted);font-size:14px}
+.np-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.np{display:block;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;transition:transform .35s var(--ease),box-shadow .35s}
+.np:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.np-img{display:block;position:relative;height:420px;background:#efe9de;overflow:hidden}
+.np-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;opacity:0;transition:opacity .5s}
+.np-img img.ok{opacity:1}
+.np-cap{display:block;padding:16px 18px}
+.np-cap b{display:block;font-size:16px}
+.np-cap span{display:block;color:var(--muted);font-size:13.5px;margin-top:2px}
+.np-cap em{display:inline-block;font-style:normal;color:var(--gold);font-weight:600;font-size:14px;margin-top:8px}
+@media(max-width:700px){.np-grid{grid-template-columns:1fr}.np-img{height:360px}}
+
 
 </style>
 </head>
@@ -1255,6 +1272,13 @@ html[lang="mr"] .el-next small{letter-spacing:0;font-size:14px;text-transform:no
       <p class="sub rv d2"><span class="mr">बहुराज्यीय सहकारी संस्था अधिनियम, २००२ (सुधारणा २०२३) व नियमांनुसार कार्यक्रम. </span><span class="en">As per the Multi-State Co-operative Societies Act, 2002 (as amended in 2023) and its rules. </span><span id="elRoll"></span></p>
       <div class="el-dl rv"><a class="btn gold" href="../docs/election-notice-2026-27.pdf" target="_blank" rel="noopener" download><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg><span class="mr">संपूर्ण निवडणूक सूचना डाउनलोड करा (PDF)</span><span class="en">Download full election notice (PDF)</span></a><a class="btn line" href="../docs/election-notice-2026-27.pdf" target="_blank" rel="noopener"><span class="mr">ऑनलाइन पहा</span><span class="en">View online</span></a></div>
       <dl class="el-info rv" id="elInfo"></dl>
+      <div class="np-wrap rv">
+        <div class="np-head"><b><span class="mr">वृत्तपत्रातील निवडणूक सूचना</span><span class="en">Election notice in newspapers</span></b><span><span class="mr">दि. ०९ नोव्हेंबर २०२६ रोजी प्रसिद्ध</span><span class="en">Published on 9 November 2026</span></span></div>
+        <div class="np-grid">
+          <a class="np" href="../docs/newspaper-notice-tarun-bharat-09-11-2026.jpg" target="_blank" rel="noopener"><span class="np-img"><img data-src="../docs/newspaper-notice-tarun-bharat-09-11-2026.jpg" data-w="900" alt="Tarun Bharat election notice"></span><span class="np-cap"><b><span class="mr">दै. तरुण भारत (मराठी)</span><span class="en">Dainik Tarun Bharat (Marathi)</span></b><span><span class="mr">सोलापूर · पान ५ · ०९.११.२०२६</span><span class="en">Solapur · Page 5 · 09.11.2026</span></span><em><span class="mr">पूर्ण पान पहा ↗</span><span class="en">View full page ↗</span></em></span></a>
+          <a class="np" href="../docs/newspaper-notice-vijayavani-09-11-2026.jpg" target="_blank" rel="noopener"><span class="np-img"><img data-src="../docs/newspaper-notice-vijayavani-09-11-2026.jpg" data-w="900" alt="Vijayavani election notice"></span><span class="np-cap"><b><span class="mr">विजयवाणी (कन्नड)</span><span class="en">Vijayavani (Kannada)</span></b><span><span class="mr">विजयपूर · पान २ · ०९.११.२०२६</span><span class="en">Vijayapura · Page 2 · 09.11.2026</span></span><em><span class="mr">पूर्ण पान पहा ↗</span><span class="en">View full page ↗</span></em></span></a>
+        </div>
+      </div>
       <div class="el-next rv" id="elNext"></div>
       <div class="el-tabs" role="tablist"><button aria-pressed="true" data-t="a"><span class="mr">अ. संचालक मंडळ सदस्य</span><span class="en">A. Board Members</span></button><button aria-pressed="false" data-t="b"><span class="mr">ब. प्रतिनिधी (पदाधिकारी)</span><span class="en">B. Representatives (office bearers)</span></button></div>
       <ol class="el-list" id="elList"></ol>
